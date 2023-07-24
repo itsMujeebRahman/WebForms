@@ -1,0 +1,193 @@
+<html>
+    <head>
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+            *{
+                font-family: 'Poppins', sans-serif;;
+            }
+            body{
+                width: 100vw;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #13313a;
+            }
+
+            .container{
+                width: 960px;
+                height: 556px;
+                background: #fff;
+                display: flex;
+                border-radius: 4px;
+            }
+            .leftcontainer{
+                width: 45%;
+                height: 100%;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .leftcontainer div{
+                background: url("./left.jpg") no-repeat;
+                background-size: cover;
+                width: 412px;
+                height: 536px;
+                border-radius: 4px;
+            }
+            .rightcontainer{
+                display: flex;
+                width: 55%;
+                height: 100%;
+                justify-content: center;
+            }
+            .rightcontainer form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                justify-content: center;
+                width: 256px;
+            }
+            
+            .form-input{
+                width: 100%;
+                margin-top: 16px;
+            }
+            .form-input input{
+                width: 100%;
+                border-radius: 16px;
+                border: 1px solid #d6dee4;
+                height: 40px;
+                margin-top: 4px;
+                padding: 0 16px;
+            }
+
+            .form-button{
+                width: 100%;
+                border-radius: 16px;
+                border: 0;
+                background: #3b4859;
+                height: 40px;
+                margin-top: 16px;
+                color: #fff;
+            }
+
+            .form-input label{
+                font-size: 10px;
+                margin-left: 16px;
+                color: #3b4859;
+                font-weight: 400;
+            }
+            h1{
+                font-weight: 500;
+                color: #3b4859;
+                line-height: 1;
+            }
+
+            .form-or{
+                width: 100%;
+                margin-top: 24px;
+                font-size: 10px;
+                color: #3b4859;
+                font-weight: 400;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .form-or div{
+                width: 33%;
+                height: 1px;
+                background-color: #d6dee4;
+            }
+
+            .or-login{
+                width: 55%;
+                margin-top: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .or-login button{
+                width: 56px;
+                height: 56px;
+                border-radius: 16px;
+                border: 1px solid #d6dee4;
+                background: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .forgot{
+                width: 100%;
+                margin-top: 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .forgot label{
+                font-size: 10px;
+                color: #3b4859;
+                font-weight: 400;
+                text-align: center;
+            }
+
+
+            .or-login button img{
+                width: 72%;
+
+            }
+            
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="leftcontainer">
+                <div>
+
+                </div>
+            </div>
+            <div class="rightcontainer">
+                <form action="">
+                    <h1>Log in</h1>
+                    <div class="form-input">
+                        <label>Login email or phone number</label>
+                        <input type="text">
+                    </div>
+                    
+                    <div class="form-input">
+                        <label>Password</label>
+                        <input type="password">
+                    </div>
+                    <button class="form-button">Log in</button>
+                    <div class="form-or">
+                        <div></div><label>or login with</label><div></div>
+                    </div>
+                    <div class="or-login">
+                        <button>
+                            <img src="./google.png">
+                        </button>
+                        <button>
+                            <img src="./office.png" alt="">
+                        </button>
+                    </div>
+                    <div class="forgot">
+                        <label>Forgot login or password?</label>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+html{
+	height:100%;
+}
+
+body {
+	background: url('images/bg.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding: 32px 0;
+	height: 100vh;
+}
+
+.loginform{
+	width: 500px;
+	color: rgb(51, 67, 51);
+	background:white;
+	opacity: 0.75;
+	border-radius: 10px;
+	height:fit-content;
+}
+
+.loginform h2{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin:30px ;
+}
+
+.loginform p{
+	font-size: 20px;
+	margin: 10px;
+	margin-left:20px;
+	
+}
+
+.loginform input{
+	font-size: 15px;
+	width: 90%;
+	padding: 10px;
+	border-radius: 10px;
+	border:1px solid #394D3B; ;
+	margin-left:15px;
+}
+
+.radio1{
+	display: inline-flex;
+	width: fit-content;
+	margin-left: 20px;
+}
+
+.radio1:nth-child(1){
+	margin-left: 12px;
+}
+
+.radio1 label{
+	font-size: 17px; 
+	cursor: pointer;
+}
+
+.contact {
+	display: inline-flex;
+	width: 97%;
+}
+
+.contact select{
+	margin-left:15px;
+	border-radius: 10px;
+	width:100px;
+	text-align: center;
+}
+
+.loginform button{
+	padding:10px;
+	margin-top:20px;
+	width:50%;
+	margin-left:120px;
+	margin-bottom:40px;
+	border-radius: 5px;
+}
+
+.radio1 input{
+	padding: 0;
+    margin: 0;
+    width: fit-content;
+    margin-right: 12px;
+}
